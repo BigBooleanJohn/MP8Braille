@@ -2,7 +2,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.Arrays;
 
-/*A class to contain and implement my toX methods */
+/*A class to contain and implement my toX methods
+* @Author: John Miller
+*/
 public class BrailleASCIITables {
     BitTree BrailleTree;
     BitTree UnicodeTree;
