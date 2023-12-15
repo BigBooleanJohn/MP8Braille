@@ -7,6 +7,7 @@ import java.io.PrintWriter;
 
 /*A class written for the 8th mini project to
  * to store mappings of trees as bits
+ * @Author: John Miller
  */
 
 public class BitTree {
