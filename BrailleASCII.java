@@ -1,6 +1,7 @@
 import java.io.PrintWriter;
 
-/*The main class for MP8 where the program and experiments are run */
+/*The main class for MP8 where the program and experiments are run
+* @Author: John Miller*/
 public class BrailleASCII {
 
     /* main class that takes the parameters for the toX methods */
