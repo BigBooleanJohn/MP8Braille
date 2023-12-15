@@ -30,6 +30,9 @@ public class BitTree {
 
     /*
      * dump is used to print out the values and data at the end of the tree.
+     * @Pre: None
+     *
+     * @Post: None
      */
 
     public void dump(PrintWriter pen) {
@@ -43,7 +46,10 @@ public class BitTree {
         }
     }
 
-    /* this is a recursive helper to get through the branches of the trees */
+    /* this is a recursive helper to get through the branches of the trees
+     * @Pre: None
+     *
+     * @Post: None*/
     public void dumpHelper(PrintWriter pen, BitTreeNode node, String s) {
         if (node.rightNode == null && node.leftNode == null) {
             s = s + node.bit;
@@ -136,6 +142,9 @@ public class BitTree {
      * appropriate) and adds or replaces the value at the end with value. set should
      * throw an exception if bits is the inappropriate length or contains values
      * other than 0 or 1.
+     * @Pre: None
+     *
+     * @Post: None
      */
     public void set(String bits, String value) throws Exception {
         if (bits.toCharArray().length != this.depth || isValidBits(bits)) {
