@@ -3,6 +3,7 @@
  * leaves of the nodes, that is, the final values at the end of the trees.
  * the nodes will be connected either to other interior nodes,
  * or to leaves.
+ * @Author: John Miller
  */
 
 public class BitTreeNode {
